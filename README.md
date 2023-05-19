@@ -2648,3 +2648,25 @@ print(scores.tolist())
 
 Please refer to our paper at [https://arxiv.org/pdf/2212.03533.pdf](https://arxiv.org/pdf/2212.03533.pdf).
 
+## Benchmark Evaluation
+
+Check out [unilm/e5](https://github.com/microsoft/unilm/tree/master/e5) to reproduce evaluation results 
+on the [BEIR](https://arxiv.org/abs/2104.08663) and [MTEB benchmark](https://arxiv.org/abs/2210.07316).
+
+## Citation
+
+If you find our paper or models helpful, please consider cite as follows:
+
+```
+@article{wang2022text,
+  title={Text Embeddings by Weakly-Supervised Contrastive Pre-training},
+  author={Wang, Liang and Yang, Nan and Huang, Xiaolong and Jiao, Binxing and Yang, Linjun and Jiang, Daxin and Majumder, Rangan and Wei, Furu},
+  journal={arXiv preprint arXiv:2212.03533},
+  year={2022}
+}
+```
+
+## Limitations
+
+This model only works for English texts. Long texts will be truncated to at most 512 tokens.
+
