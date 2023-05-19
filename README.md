@@ -925,7 +925,7 @@ model-index:
     - type: mrr_at_100
       value: 35.931000000000004
     - type: mrr_at_1000
-      value: 36.0
+      value: 36
     - type: mrr_at_3
       value: 32.603
     - type: mrr_at_5
@@ -2197,7 +2197,7 @@ model-index:
     - type: recall_at_100
       value: 92.767
     - type: recall_at_1000
-      value: 99.0
+      value: 99
     - type: recall_at_3
       value: 69.672
     - type: recall_at_5
@@ -2331,7 +2331,7 @@ model-index:
     - type: map_at_5
       value: 1.0699999999999998
     - type: mrr_at_1
-      value: 84.0
+      value: 84
     - type: mrr_at_10
       value: 89.567
     - type: mrr_at_100
@@ -2343,7 +2343,7 @@ model-index:
     - type: mrr_at_5
       value: 89.567
     - type: ndcg_at_1
-      value: 80.0
+      value: 80
     - type: ndcg_at_10
       value: 74.533
     - type: ndcg_at_100
@@ -2355,7 +2355,7 @@ model-index:
     - type: ndcg_at_5
       value: 78.245
     - type: precision_at_1
-      value: 84.0
+      value: 84
     - type: precision_at_10
       value: 78.4
     - type: precision_at_100
@@ -2596,6 +2596,8 @@ model-index:
       value: 85.98986606038852
     - type: max_f1
       value: 78.5277880014722
+language:
+- en
 ---
 
 # E5-small-v2
@@ -2669,4 +2671,3 @@ If you find our paper or models helpful, please consider cite as follows:
 ## Limitations
 
 This model only works for English texts. Long texts will be truncated to at most 512 tokens.
-
