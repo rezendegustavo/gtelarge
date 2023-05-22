@@ -2598,6 +2598,7 @@ model-index:
       value: 78.5277880014722
 language:
 - en
+license: mit
 ---
 
 # E5-small-v2
