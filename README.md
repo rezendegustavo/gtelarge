@@ -2672,3 +2672,13 @@ If you find our paper or models helpful, please consider cite as follows:
 ## Limitations
 
 This model only works for English texts. Long texts will be truncated to at most 512 tokens.
+
+## Sentence Transformers
+
+Below is an example for usage with sentence_transformers. `pip install sentence_transformers~=2.2.2`
+This is community contributed, and results may vary up to numerical precision.
+```python
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('intfloat/e5-small-v2')
+embeddings = model.encode(input_texts, normalize_embeddings=True)
+```
