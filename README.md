@@ -1,6 +1,9 @@
 ---
 tags:
 - mteb
+- Sentence Transformers
+- sentence-similarity
+- sentence-transformers
 model-index:
 - name: e5-small-v2
   results:
